@@ -1,0 +1,27 @@
+{
+	"name": "AzureSqlTable4",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "director",
+				"type": "varchar"
+			},
+			{
+				"name": "show_id",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "directors"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

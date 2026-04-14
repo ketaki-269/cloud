@@ -1,0 +1,9 @@
+{
+	"name": "netfactpro01-01",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6fed906d-70e5-41f6-ad0d-460062fd6609",
+		"tenantId": "9e9bee86-2ee2-42d7-8987-2763bbee6134"
+	}
+}
